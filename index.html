@@ -20,7 +20,7 @@
     <title>Desafío Viajes Chile</title>
 </head>
 
-<body>
+<body >
     <!--Navbar-->
     <header>
         <div id="navbar">
@@ -36,9 +36,9 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                            <a class="nav-link" href="#">Quienes Somos</a>
-                            <a class="nav-link" href="#">Destacados</a>
-                            <a class="nav-link">Contacto</a>
+                            <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -75,6 +75,7 @@
         <!--Quienes Somos-->
         <section id="quienesSomos" class="d-none d-md-block">
             <h2>¿QUIÉNES SOMOS?</h2>
+            <hr>
             <div class="row">
                 <div class="container col-4">
                     <div class="containter text-white bg-info text-center fs-3" id="icon1"><i class="fas fa-plane"></i></div>
@@ -136,12 +137,13 @@
         </section>
         <!--Destacados-->
         <section id="destacados" class="row">
-            <h2>DESTACADOS</h2>
+            <h2 >DESTACADOS</h2>
+            <hr>
             <div id="t1" class="col-3">
                 <div class="card" >
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="..." height="120px">
-                    <div class="card-body" height="192px">
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+                    <div class="card-body bg-info" height="192px">
+                        <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
                             laudantium sequi necessitatibus possimus obcaecati qui, accusantium voluptatem ipsum at
                             perspiciatis!</p>
                     </div>
@@ -150,8 +152,8 @@
             <div id="t2" class="col-3">
                 <div class="card" >
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="..." height="120px">
-                    <div class="card-body">
-                        <p class="card-text" height="192px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere
+                    <div class="card-body bg-info">
+                        <p class="card-text " height="192px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere
                             doloribus corporis! Voluptatibus reiciendis esse aut ea impedit adipisci dolores.</p>
                     </div>
                 </div>
@@ -159,7 +161,7 @@
             <div id="t3" class="col-3">
                 <div class="card" >
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="..." height="120px">
-                    <div class="card-body">
+                    <div class="card-body bg-info">
                         <p class="card-text" height="192px">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel fugiat,
                             non
                             quos possimus ipsum ad nobis iure repudiandae aliquam.</p>
@@ -169,7 +171,7 @@
             <div id="t4" class="col-3">
                 <div class="card" >
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="..." height="120px">
-                    <div class="card-body">
+                    <div class="card-body bg-info">
                         <p class="card-text" height="192px">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo
                             debitis
                             possimus dolor quis cum autem reprehenderit quaerat enim beatae?</p>
@@ -178,8 +180,9 @@
             </div>
         </section>
         <!--Contacto-->
-        <section class="contacto">
+        <section id="contacto">
             <h2>CONTACTO</h2>
+            <hr>
             <form action="">
                 <div class="row">
    
@@ -198,6 +201,7 @@
                         <textarea id="txt-mensahe" cols="30" rows="10" class="form-control"></textarea>
                     </div>
                 </div>
+                <button type="button" class="btn btn-info my-1">Enviar</button>
             </form>
         </section>
     </main>

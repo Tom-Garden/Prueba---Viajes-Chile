@@ -1,7 +1,12 @@
 *{
     color: #ffffff;
+
 }
 /*General*/
+body{
+    background-color: #000;
+}
+
 h2{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1,3em;
